@@ -7,6 +7,11 @@ import (
 
 
 func resolveAddresses() {
+	/*
+	*The resolution of the domain name from the IP address can be done with
+	*the LookupAddr function from the net package. To find out the IP address from the
+	*domain name, the LookupIP function is applied.
+	*/
 	//Resolve by IP
 	addrs, err := net.LookupAddr("127.0.0.1")
 	if err != nil {
