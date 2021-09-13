@@ -3,6 +3,6 @@ Repo contains that code samples that I used while learning networks programming 
 
 #### Installation 
  Using Github CLI
-    ```bash
+-    ```bash
         gh repo clone morelmiles/go-networks
     ```
